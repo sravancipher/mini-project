@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_javascript import st_javascript
+# from streamlit_javascript import st_javascript
 st.set_page_config(page_icon="logo-removebg-preview.png")
 st.sidebar.markdown("""
    <div>
@@ -20,18 +20,18 @@ sh=form.number_input("Sleeping Hours",key="8")
 hr=form.number_input("Heart Rate",key="9")
 submit=form.form_submit_button("Submit Data")
 st.markdown("""<h2>Let us predict your stress<span class="auto-type"></span></h2>""",unsafe_allow_html=True)
-js="""
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script>
-var typed=new Typed(".auto-type,{
-  strings=["stress","health"],
-  typeSpeed:150,
-  backSpeed:150,
-  loop:true
-})
-</script>
-"""
-st_javascript(js)
+# js="""
+# <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+# <script>
+# var typed=new Typed(".auto-type,{
+#   strings=["stress","health"],
+#   typeSpeed:150,
+#   backSpeed:150,
+#   loop:true
+# })
+# </script>
+# """
+# st_javascript(js)
 # Import necessary libraries
 import pandas as pd                    # For data manipulation and analysis using DataFrames
 import numpy as np                     # For numerical operations
