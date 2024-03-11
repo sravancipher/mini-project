@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+sklearn.model_selection
+sklearn.metrics
+sklearn.linear_model
+sklearn.ensemble
+sklearn.tree
+sklearn.svm
+sklearn.naive_bayes
+sklearn.neighbors
